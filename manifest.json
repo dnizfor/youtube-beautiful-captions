@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Beautiful Caption",
+  "version": "1.0.0",
+  "description": "Make beautiful captions",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
